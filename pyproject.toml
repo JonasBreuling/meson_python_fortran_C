@@ -1,0 +1,14 @@
+[build-system]
+build-backend = 'mesonpy'
+requires = ['meson-python']
+
+[project]
+name = 'meson_python_fortran_C'
+version = '0.0.1'
+description = 'Our first Python project, using meson-python!'
+readme = 'README.md'
+requires-python = '>=3.8'
+license = {file = 'LICENSE.txt'}
+authors = [
+  {name = 'Jonas Breuling', email = 'jonas.breuling@inm.uni-stuttgart.de'},
+]
